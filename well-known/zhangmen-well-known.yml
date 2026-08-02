@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.zhangmen.com/.well-known/*
+host: https://www.zhangmen.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+note: >-
+  No .well-known discovery documents are published. Zhangmen is a direct-to-consumer
+  online-tutoring platform with no developer/API surface. No WellKnown or SecurityTxt
+  pointer is wired because nothing was found (empty/none is a valid result).

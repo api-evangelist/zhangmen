@@ -1,0 +1,17 @@
+# Zhangmen
+
+> Zhangmen (掌门1对1 / 掌门教育) is a Shanghai-based online education company offering premium one-on-one and small-group tutoring to K-12 students across China. The platform pairs students with elite instructors and layers on data-driven learning analysis (diagnostic assessment, personalized study plans, real-time classroom monitoring, automated learning reports, parent progress tracking). It also runs quality-education modules (public speaking, creative art, programming, comprehensive/mathematical thinking) and a piano accompaniment-practice product. Zhangmen is a direct-to-consumer web and mobile app play delivered in Simplified Chinese; as of this writing it exposes no public developer API, SDK, or documentation surface.
+
+## About
+- Website: https://www.zhangmen.com
+- Piano accompaniment practice: https://www.zmpeilian.com
+- Business partnerships: bd@zhangmen.com
+- Backed by: SoftBank Vision Fund
+- Sector: Edtech / online tutoring (K-12), China
+
+## APIs
+- None published. Zhangmen has no public developer API, SDK, or documentation.
+
+## Notes
+- Generated from the API Evangelist catalog profile (apis.yml); no API artifacts exist because the provider publishes no API surface.
+- No /.well-known discovery documents are published (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json all return 404).

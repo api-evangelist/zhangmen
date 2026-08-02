@@ -1,8 +1,17 @@
 aid: zhangmen
 name: Zhangmen
-description: 'Zhangmen is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zhangmen (掌门1对1 / 掌门教育) is a Shanghai-based online education company
+  offering premium one-on-one and small-group tutoring to K-12 students across China.
+  Its platform pairs students with elite instructors and layers on data-driven,
+  intelligent learning analysis: diagnostic assessment, personalized study plans,
+  real-time classroom monitoring, automated learning reports, and parent progress
+  tracking. Beyond core academic tutoring the company runs quality-education modules
+  spanning public speaking, creative art, programming, and comprehensive/mathematical
+  thinking, along with a piano accompaniment-practice product (zmpeilian.com). The
+  business is a direct-to-consumer web and mobile app play delivered in Simplified
+  Chinese; it exposes no public developer API, SDK, or documentation surface. This
+  profile was surfaced as a portfolio company of SoftBank Vision Fund and added to
+  the API Evangelist network for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/zhangmen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,49 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Edtech
+- Education
+- Online Tutoring
+- K-12
+- E-Learning
+- China
+- Consumer
+image: https://www.zhangmen.com/favicon.ico
 apis: []
+common:
+- type: Website
+  url: https://www.zhangmen.com
+- type: TermsOfService
+  url: https://www.zhangmen.com
+- type: PrivacyPolicy
+  url: https://www.zhangmen.com
+- type: DomainSecurity
+  url: security/zhangmen-domain-security.yml
+- type: LLMsTxt
+  url: llms/zhangmen-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
